@@ -2,11 +2,22 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>CTEG WAREHOUSE</title>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%;
+            overflow: hidden; /* Ngăn không cho trang web mẹ bị cuộn */
+        }
+        iframe { 
+            width: 100%; 
+            height: 100vh; /* Sử dụng 100vh để chiếm đúng 100% chiều cao khung nhìn */
+            border: none; 
+            display: block;
+        }
     </style>
 </head>
 <body>
